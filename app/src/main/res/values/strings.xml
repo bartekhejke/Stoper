@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stoper</string>
+    <string name="textUnderLogo">Time is also an element.</string>
+    <string name="startBotton">Get Started</string>
+    <string name="runButton">Start Now</string>
+    <string name="stopButton">Stop Now</string>
+</resources>

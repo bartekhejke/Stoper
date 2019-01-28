@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="310dp"
+        android:layout_height="185dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_below="@id/logoImageView"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="65dp"
+        android:textColor="@color/logoColor"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/textUnderLogoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textUnderLogo"
+        android:layout_below="@id/appNameTextView"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="23dp"
+        android:textColor="@color/textUnderLogo"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startBotton"
+        android:layout_below="@+id/textUnderLogoTextView"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/logoColor"
+        android:textSize="25dp"
+        />
+
+
+
+</RelativeLayout>
